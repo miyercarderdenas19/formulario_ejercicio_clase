@@ -1,0 +1,66 @@
+#contenido{
+    margin: 0%;
+    background-color: bisque;
+    width: 800px;
+}
+#navegador{
+    margin: auto;
+    width: 900px;
+}
+body{
+    margin: 0%;
+    padding: 0;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-image: url(https://www.funcion.info/wp-content/uploads/2021/03/funcion-de-las-imagenes.jpg);
+}
+.container{
+    background-color: #afa8a8dc;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 50px ;
+    max-width: 600px;
+    padding: 80px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-position: center;
+    background-color: #ca2230;
+}
+form {
+  display: auto;
+  flex-direction: column;
+}
+label {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+select{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+  
+input {
+    border: 5px solid #dbd7d7;
+    border-radius: 50px;
+    font-size: 19px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+  
+button {
+    background-color: #ca2230;
+    border: none;
+    width: 150px;
+    justify-items: end;
+    border-radius: 3px;
+    color: #f5f0f0;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #fcf7f7;
+}
